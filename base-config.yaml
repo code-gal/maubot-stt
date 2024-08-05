@@ -1,0 +1,18 @@
+openai_api_key: sk-
+
+# API endpoint to connect to
+whisper_endpoint: https://api.openai.com/v1/audio/transcriptions
+
+# List of allowed users
+# [] means no restriction
+allowed_users: []
+
+# List of allowed rooms
+# [] means no restriction
+allowed_rooms: []
+
+# Optional text to guide the model's style or to continue from a previous audio segment. The prompt should match the language of the audio.
+prompt: "以下是普通话录制的会议记录："
+
+# The language of the input audio. Providing the input language in ISO-639-1 format (Chinese: "zh") will improve accuracy and latency, leave empty by default
+language:
